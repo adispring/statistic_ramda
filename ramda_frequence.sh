@@ -7,6 +7,7 @@ PROJECTS_DIR="$(cd ../ && ls -d */)"
 # bash version should be gte v4 to support associative array
 declare -A ramdaapis
 
+total=0
 for project_dir in $PROJECTS_DIR
 do
     cd "$PROJECTS_CONTAINER_DIR/$project_dir"
@@ -20,15 +21,17 @@ do
             else
                 ramdaapis[$api]=$((${ramdaapis[$api]} + 1))
             fi
+            total=$(($total+1))
         done
     fi
 done
 
-table_head="$(echo -e '| API | Frequence |\n| :--- | :--- |\n')"
+table_head="$(echo -e '| API | Frequence | Percent |\n| :--- | :--- |:--- |\n')"
 sorted_keys=$(
     for api in ${!ramdaapis[*]}
     do
-        echo -e "| $api | ${ramdaapis[$api]} |\n"
+        percent=$(echo "scale = 2; ${ramdaapis[$api]} * 100 / ${total}" | bc)
+        echo -e "| $api | ${ramdaapis[$api]} | ${percent}% |\n"
     done | sort -rn -k4)
 echo -e "$table_head\n$sorted_keys" | tee "$CURRENT_DIR/ramda-status.md"
 # echo "$sorted_keys" > "$CURRENT_DIR/ramda-status.md"

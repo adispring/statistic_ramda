@@ -1,144 +1,144 @@
-| API | frequence |
-| :--- | :--- |
-| compose | 452 |
-| path | 365 |
-| map | 327 |
-| equals | 200 |
-| prop | 170 |
-| defaultTo | 150 |
-| merge | 144 |
-| propEq | 121 |
-| pluck | 117 |
-| isEmpty | 108 |
-| always | 107 |
-| isNil | 102 |
-| contains | 92 |
-| __ | 91 |
-| curry | 81 |
-| pick | 79 |
-| filter | 78 |
-| find | 70 |
-| identity | 63 |
-| head | 56 |
-| test | 54 |
-| keys | 47 |
-| converge | 46 |
-| assoc | 46 |
-| cond | 44 |
-| concat | 43 |
-| mergeAll | 42 |
-| join | 33 |
-| ifElse | 32 |
-| addIndex | 29 |
-| evolve | 28 |
-| complement | 26 |
-| anyPass | 26 |
-| T | 26 |
-| zipObj | 25 |
-| gte | 25 |
-| values | 24 |
-| props | 22 |
-| findIndex | 22 |
-| split | 21 |
-| applySpec | 21 |
-| reject | 20 |
-| is | 19 |
-| replace | 18 |
-| reduce | 18 |
-| any | 18 |
-| lt | 16 |
-| slice | 15 |
-| omit | 15 |
-| flatten | 15 |
-| last | 14 |
-| indexOf | 14 |
-| sum | 13 |
-| repeat | 13 |
-| fromPairs | 13 |
-| chain | 13 |
-| max | 12 |
-| length | 12 |
-| toString | 11 |
-| nth | 11 |
-| gt | 11 |
-| groupBy | 11 |
-| all | 11 |
-| not | 10 |
-| mapObjIndexed | 10 |
-| uniq | 9 |
-| sort | 9 |
-| toPairs | 8 |
-| sortBy | 8 |
-| lte | 8 |
-| forEach | 8 |
-| append | 8 |
-| transpose | 7 |
-| reverse | 7 |
-| remove | 7 |
-| clamp | 7 |
-| zipWith | 6 |
-| without | 6 |
-| update | 6 |
-| objOf | 6 |
-| intersection | 6 |
-| indexBy | 6 |
-| dissoc | 6 |
-| allPass | 6 |
-| of | 5 |
-| divide | 5 |
-| assocPath | 5 |
-| add | 5 |
-| zip | 4 |
-| times | 4 |
-| tail | 4 |
-| subtract | 4 |
-| range | 4 |
-| prepend | 4 |
-| pipe | 4 |
-| insert | 4 |
-| flip | 4 |
-| eqProps | 4 |
-| clone | 4 |
-| where | 3 |
-| type | 3 |
-| transduce | 3 |
-| sortWith | 3 |
-| scan | 3 |
-| propSatisfies | 3 |
-| pickBy | 3 |
-| nthArg | 3 |
-| multiply | 3 |
-| invertObj | 3 |
-| error | 3 |
-| descend | 3 |
-| unapply | 2 |
-| tryCatch | 2 |
-| tap | 2 |
-| takeLast | 2 |
-| propOr | 2 |
-| over | 2 |
-| mergeWith | 2 |
-| mathMod | 2 |
-| mapAccum | 2 |
-| lensProp | 2 |
-| isArrayLike | 2 |
-| differenceWith | 2 |
-| adjust | 2 |
-| whereEq | 1 |
-| when | 1 |
-| useWith | 1 |
-| union | 1 |
-| trim | 1 |
-| toLower | 1 |
-| splitEvery | 1 |
-| splitAt | 1 |
-| reduced | 1 |
-| pathOr | 1 |
-| pair | 1 |
-| liftN | 1 |
-| inc | 1 |
-| hasIn | 1 |
-| has | 1 |
-| difference | 1 |
-| apply | 1 |
-| acend | 1 |
+| API | Frequence | Percent |
+| :--- | :--- |:--- |
+| compose | 452 | 10.59% |
+| path | 365 | 8.55% |
+| map | 327 | 7.66% |
+| equals | 200 | 4.68% |
+| prop | 170 | 3.98% |
+| defaultTo | 150 | 3.51% |
+| merge | 144 | 3.37% |
+| propEq | 121 | 2.83% |
+| pluck | 117 | 2.74% |
+| isEmpty | 108 | 2.53% |
+| always | 107 | 2.50% |
+| isNil | 102 | 2.39% |
+| contains | 92 | 2.15% |
+| __ | 91 | 2.13% |
+| curry | 81 | 1.89% |
+| pick | 79 | 1.85% |
+| filter | 78 | 1.82% |
+| find | 70 | 1.64% |
+| identity | 63 | 1.47% |
+| head | 56 | 1.31% |
+| test | 54 | 1.26% |
+| keys | 47 | 1.10% |
+| converge | 46 | 1.07% |
+| assoc | 46 | 1.07% |
+| cond | 44 | 1.03% |
+| concat | 43 | 1.00% |
+| mergeAll | 42 | .98% |
+| join | 33 | .77% |
+| ifElse | 32 | .75% |
+| addIndex | 29 | .67% |
+| evolve | 28 | .65% |
+| complement | 26 | .60% |
+| anyPass | 26 | .60% |
+| T | 26 | .60% |
+| zipObj | 25 | .58% |
+| gte | 25 | .58% |
+| values | 24 | .56% |
+| props | 22 | .51% |
+| findIndex | 22 | .51% |
+| split | 21 | .49% |
+| applySpec | 21 | .49% |
+| reject | 20 | .46% |
+| is | 19 | .44% |
+| replace | 18 | .42% |
+| reduce | 18 | .42% |
+| any | 18 | .42% |
+| lt | 16 | .37% |
+| slice | 15 | .35% |
+| omit | 15 | .35% |
+| flatten | 15 | .35% |
+| last | 14 | .32% |
+| indexOf | 14 | .32% |
+| sum | 13 | .30% |
+| repeat | 13 | .30% |
+| fromPairs | 13 | .30% |
+| chain | 13 | .30% |
+| max | 12 | .28% |
+| length | 12 | .28% |
+| toString | 11 | .25% |
+| nth | 11 | .25% |
+| gt | 11 | .25% |
+| groupBy | 11 | .25% |
+| all | 11 | .25% |
+| not | 10 | .23% |
+| mapObjIndexed | 10 | .23% |
+| uniq | 9 | .21% |
+| sort | 9 | .21% |
+| toPairs | 8 | .18% |
+| sortBy | 8 | .18% |
+| lte | 8 | .18% |
+| forEach | 8 | .18% |
+| append | 8 | .18% |
+| transpose | 7 | .16% |
+| reverse | 7 | .16% |
+| remove | 7 | .16% |
+| clamp | 7 | .16% |
+| zipWith | 6 | .14% |
+| without | 6 | .14% |
+| update | 6 | .14% |
+| objOf | 6 | .14% |
+| intersection | 6 | .14% |
+| indexBy | 6 | .14% |
+| dissoc | 6 | .14% |
+| allPass | 6 | .14% |
+| of | 5 | .11% |
+| divide | 5 | .11% |
+| assocPath | 5 | .11% |
+| add | 5 | .11% |
+| zip | 4 | .09% |
+| times | 4 | .09% |
+| tail | 4 | .09% |
+| subtract | 4 | .09% |
+| range | 4 | .09% |
+| prepend | 4 | .09% |
+| pipe | 4 | .09% |
+| insert | 4 | .09% |
+| flip | 4 | .09% |
+| eqProps | 4 | .09% |
+| clone | 4 | .09% |
+| where | 3 | .07% |
+| type | 3 | .07% |
+| transduce | 3 | .07% |
+| sortWith | 3 | .07% |
+| scan | 3 | .07% |
+| propSatisfies | 3 | .07% |
+| pickBy | 3 | .07% |
+| nthArg | 3 | .07% |
+| multiply | 3 | .07% |
+| invertObj | 3 | .07% |
+| error | 3 | .07% |
+| descend | 3 | .07% |
+| unapply | 2 | .04% |
+| tryCatch | 2 | .04% |
+| tap | 2 | .04% |
+| takeLast | 2 | .04% |
+| propOr | 2 | .04% |
+| over | 2 | .04% |
+| mergeWith | 2 | .04% |
+| mathMod | 2 | .04% |
+| mapAccum | 2 | .04% |
+| lensProp | 2 | .04% |
+| isArrayLike | 2 | .04% |
+| differenceWith | 2 | .04% |
+| adjust | 2 | .04% |
+| whereEq | 1 | .02% |
+| when | 1 | .02% |
+| useWith | 1 | .02% |
+| union | 1 | .02% |
+| trim | 1 | .02% |
+| toLower | 1 | .02% |
+| splitEvery | 1 | .02% |
+| splitAt | 1 | .02% |
+| reduced | 1 | .02% |
+| pathOr | 1 | .02% |
+| pair | 1 | .02% |
+| liftN | 1 | .02% |
+| inc | 1 | .02% |
+| hasIn | 1 | .02% |
+| has | 1 | .02% |
+| difference | 1 | .02% |
+| apply | 1 | .02% |
+| acend | 1 | .02% |
