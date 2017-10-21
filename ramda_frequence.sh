@@ -24,11 +24,13 @@ do
     fi
 done
 
+table_head="$(echo -e '| API | Frequence |\n| :--- | :--- |\n')"
 sorted_keys=$(
     for api in ${!ramdaapis[*]}
     do
-        echo -e "$api -> ${ramdaapis[$api]}\n"
-    done | sort -rn -k3)
-echo "$sorted_keys" > "$CURRENT_DIR/ramda-status.md"
+        echo -e "| $api | ${ramdaapis[$api]} |\n"
+    done | sort -rn -k4)
+echo -e "$table_head\n$sorted_keys" | tee "$CURRENT_DIR/ramda-status.md"
+# echo "$sorted_keys" > "$CURRENT_DIR/ramda-status.md"
 
 
