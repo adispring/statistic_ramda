@@ -1,5 +1,6 @@
 #!/bin/bash
 
+CURRENT_DIR="$(pwd)"
 PROJECTS_CONTAINER_DIR="$(cd ../ && pwd)"
 PROJECTS_DIR="$(cd ../ && ls -d */)"
 
@@ -23,8 +24,11 @@ do
     fi
 done
 
-for api in ${!ramdaapis[*]}
-do
-    echo "$api -> ${ramdaapis[$api]}"
-done | sort -rn -k3 | tee ramda-status.md
+sorted_keys=$(
+    for api in ${!ramdaapis[*]}
+    do
+        echo -e "$api -> ${ramdaapis[$api]}\n"
+    done | sort -rn -k3)
+echo "$sorted_keys" > "$CURRENT_DIR/ramda-status.md"
+
 
