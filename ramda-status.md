@@ -142,3 +142,6 @@
 | difference | 1 | .02% |
 | apply | 1 | .02% |
 | acend | 1 | .02% |
+
+Total count: 4266.
+

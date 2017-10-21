@@ -29,12 +29,13 @@ do
 done
 
 table_head="$(echo -e '| API | Frequence | Percent |\n| :--- | :--- |:--- |\n')"
+total_footer="Total count: ${total}."
 sorted_keys=$(
     for api in ${!ramdaapis[*]}
     do
         percent=$(echo "scale = 2; ${ramdaapis[$api]} * 100 / ${total}" | bc)
         echo -e "| $api | ${ramdaapis[$api]} | ${percent}% |\n"
     done | sort -rn -k4)
-echo -e "$table_head\n$sorted_keys" | tee "$CURRENT_DIR/ramda-status.md"
+echo -e "$table_head\n$sorted_keys\n\n$total_footer\n" | tee "$CURRENT_DIR/ramda-status.md"
 
 
