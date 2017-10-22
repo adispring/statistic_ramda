@@ -1,39 +1,39 @@
 | API | Frequence | Percent |
 | :--- | :--- |:--- |
-| compose | 452 | 10.59% |
-| path | 365 | 8.55% |
-| map | 327 | 7.66% |
-| equals | 200 | 4.68% |
-| prop | 170 | 3.98% |
-| defaultTo | 150 | 3.51% |
-| merge | 144 | 3.37% |
+| compose | 452 | 10.57% |
+| path | 365 | 8.54% |
+| map | 327 | 7.65% |
+| equals | 200 | 4.67% |
+| prop | 170 | 3.97% |
+| defaultTo | 150 | 3.50% |
+| merge | 144 | 3.36% |
 | propEq | 121 | 2.83% |
-| pluck | 117 | 2.74% |
-| isEmpty | 108 | 2.53% |
+| pluck | 117 | 2.73% |
+| isEmpty | 108 | 2.52% |
 | always | 107 | 2.50% |
-| isNil | 102 | 2.39% |
+| isNil | 102 | 2.38% |
 | contains | 92 | 2.15% |
-| __ | 91 | 2.13% |
+| __ | 91 | 2.12% |
 | curry | 81 | 1.89% |
-| pick | 79 | 1.85% |
+| pick | 79 | 1.84% |
 | filter | 78 | 1.82% |
-| find | 70 | 1.64% |
+| find | 70 | 1.63% |
 | identity | 63 | 1.47% |
 | head | 56 | 1.31% |
 | test | 54 | 1.26% |
-| keys | 47 | 1.10% |
+| keys | 47 | 1.09% |
 | converge | 46 | 1.07% |
 | assoc | 46 | 1.07% |
-| cond | 44 | 1.03% |
+| cond | 44 | 1.02% |
 | concat | 43 | 1.00% |
 | mergeAll | 42 | .98% |
+| T | 34 | .79% |
 | join | 33 | .77% |
-| ifElse | 32 | .75% |
+| ifElse | 32 | .74% |
 | addIndex | 29 | .67% |
 | evolve | 28 | .65% |
 | complement | 26 | .60% |
 | anyPass | 26 | .60% |
-| T | 26 | .60% |
 | zipObj | 25 | .58% |
 | gte | 25 | .58% |
 | values | 24 | .56% |
@@ -143,5 +143,5 @@
 | apply | 1 | .02% |
 | acend | 1 | .02% |
 
-Total count: 4266.
+Total count: 4274.
 
